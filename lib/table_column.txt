@@ -1,0 +1,13 @@
+if (_maxRows > 0 && maxCols > 0) {
+      _data = List.generate(maxCols, (colIndex) {
+        print(colIndex);
+        print('colIndex');
+        return List.generate(_maxRows, (rowIndex) {
+          if (_sheetData[rowIndex] != null &&
+              _sheetData[rowIndex]![colIndex] != null) {
+            return _sheetData [rowIndex]![colIndex];
+          }
+          return null;
+        });
+      });
+    }
