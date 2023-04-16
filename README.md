@@ -2,7 +2,7 @@
 
 A Flutter Desktop App Project.
 
-## Features
+## Features:
 
 A. Reads excel file and handles exceptions of importing wrong format files   
 B.  Creates menu dynamically based on excel file data  
